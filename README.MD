@@ -1,8 +1,4 @@
 # Laboratorio 4
-## Foto a replicar
-### Dodge Charger 1970
-![Dodge Charger](https://github.com/markalbrand56/STW-Laboratorio-4/blob/master/img/dodge_charger.png)
-
 
 ## Rúbrica
 
@@ -25,4 +21,13 @@
 - [ ] (5 puntos) Por utilizar la pseudo-clase :nth-child
 - [x] (10 puntos) Por utilizar significativamente display: flex o display: grid
 - [x] (50 puntos) Por no utilizar position: absolute (su imagen debe ser suficientemente compleja para contar)
+
+## Foto a replicar
+### Dodge Charger 1970
+![Dodge Charger](https://github.com/markalbrand56/STW-Laboratorio-4/blob/master/img/dodge_charger.png)
+
+### Resultado
+![Resultado](https://github.com/markalbrand56/STW-Laboratorio-4/blob/master/img/producto_final.png)
+
+
 
