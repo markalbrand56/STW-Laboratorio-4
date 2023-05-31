@@ -2,7 +2,7 @@
 
 ## Rúbrica
 
-- [ ] (20 puntos) [Criterio subjetivo] Según qué tan compleja es la imagen original que eligieron
+- [x] (20 puntos) [Criterio subjetivo] Según qué tan compleja es la imagen original que eligieron
 - [ ] (20 puntos) [Criterio subjetivo] Según qué tanto se parezca a la imagen original su dibujo en css
 - [ ] (50 puntos) Por utilizar un único elemento de html en toda su imagen
 - [x] (10 puntos) Por cada elemento de html diferente que utilicen, para un máximo de 50 puntos. El primer elemento no cuenta.
