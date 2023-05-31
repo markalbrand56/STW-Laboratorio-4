@@ -60,8 +60,8 @@ footer{
     justify-self: center;
     align-self: center;
 
-    width: 70%;
-    height: 70%;
+    width: 65%;
+    height: 65%;
 
     background-color: grey;
     border-radius: 50%;
@@ -161,4 +161,50 @@ footer{
     background-color: transparent;
 }
 
+.cabinContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
 
+    width: 100%;
+    height: 100%;
+}
+
+.cabin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    justify-self: end;
+    align-self: end;
+
+    width: 70%;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--body-color);
+    /*border-top: 5px solid var(--body-color);*/
+}
+
+.triangle3 {
+    width: 0;
+    height: 0;
+    border-right: 60px solid var(--body-color);
+    border-top: 60px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid var(--body-color);
+}
+
+.triangle4 {
+    align-self: end;
+
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 85px solid transparent;
+    border-left: 140px solid var(--body-color);
+    border-bottom: 25px solid var(--body-color);
+}
