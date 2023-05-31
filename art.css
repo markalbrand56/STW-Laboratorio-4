@@ -261,6 +261,20 @@ footer{
     border: 3px #414141 solid;
 }
 
+.nose::before{
+    content: "";
+    display: block;
+    clear: both;
+
+    align-self: start;
+
+    width: 3px;
+    height: 100%;
+
+    background-color: black;
+    border: 3px #414141 solid;
+}
+
 .triangle1 {
     display: flex;
     flex-direction: column;
@@ -298,6 +312,7 @@ footer{
     height: 60%;
 
     background-color: var(--body-color);
+    border-right: black 7px solid;
 }
 
 .boot::after{
