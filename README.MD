@@ -1,7 +1,7 @@
 # Laboratorio 4
 ## Foto a replicar
 ### Dodge Charger 1970
-
+![Dodge Charger](https://github.com/markalbrand56/STW-Laboratorio-4/blob/master/img/dodge_charger.png)
 
 
 ## Rúbrica
