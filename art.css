@@ -1,5 +1,5 @@
 * {
-    outline: 1px red dashed;
+    /*outline: 1px red dashed;*/
 }
 
 :root {
@@ -34,18 +34,116 @@ footer{
     border: 5px black solid;
 }
 
+.tireContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.tireCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    align-self: end;
+
+    width: 160px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+
+    aspect-ratio: 1;
+    border-top: 30px solid var(--body-color);
+}
+
+.spacer1 {
+    align-self: start;
+    width: 10px;
+    height: 113px;
+    background-color: var(--body-color);
+
+    border: 1px solid var(--body-color);
+
+    margin: 0;
+    padding: 0;
+}
+
+.spacer2 {
+    align-self: start;
+    width: 100%;
+    height: 4px;
+    background-color: var(--body-color);
+
+    border-top: 7px solid var(--body-color);
+
+    margin: 0;
+    padding: 0;
+}
+
+.spacer2::after{
+    content: "";
+    display: block;
+    clear: both;
+
+    width: 100%;
+    height: 86px;
+    background-color: #2f2f2f;
+
+    margin: 0;
+    padding: 0;
+}
+
+.spacer3 {
+    align-self: start;
+    width: 10px;
+    height: 154px;
+    background-color: var(--body-color);
+
+    margin: 0;
+    padding: 0;
+}
+
+.spacer4 {
+    align-self: start;
+    width: 10px;
+    height: 140px;
+    background-color: var(--body-color);
+    border: 3px solid var(--body-color);
+
+    margin: 0;
+    padding: 0;
+}
+
+.spacer5 {
+    align-self: start;
+    width: 10px;
+    height: 152px;
+    background-color: var(--body-color);
+
+    border: 1px solid var(--body-color);
+
+    margin: 0;
+    padding: 0;
+}
+
+
 .tire {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    justify-self: center;
-    align-self: end;
-
-    width: 90%;
-    height: 90%;
+    width: 150px;
+    height: 150px;
     aspect-ratio: 1;
+
+    margin: 0;
+    padding: 0;
 
     background-color: black;
     border-radius: 50%;
@@ -80,7 +178,6 @@ footer{
     height: 80%;
 
     background-color: var(--body-color);
-    border: 1px black solid;
 }
 
 .chasis::after {
@@ -88,15 +185,15 @@ footer{
     display: block;
     clear: both;
 
-    margin-right: 2em;
+    margin-right: 4em;
     justify-self: start;
     align-self: center;
 
-    width: 60%;
+    width: 65%;
     height: 100%;
 
     background-color: transparent;
-    border: 3px black solid;
+    border: 3px #414141 solid;
 }
 
 .noseContainer {
@@ -117,7 +214,6 @@ footer{
     height: 60%;
 
     background-color: var(--body-color);
-    border: 1px black solid;
 }
 
 .triangle1 {
@@ -148,15 +244,14 @@ footer{
     height: 60%;
 
     background-color: var(--body-color);
-    border: 1px black solid;
 }
 
 .triangle2 {
     width: 0;
     height: 0;
     border-right: 182px solid transparent;
-    border-top: 50px solid var(--body-color);
-    border-bottom: 75px solid transparent;
+    border-top: 35px solid var(--body-color);
+    border-bottom: 44px solid transparent;
 
     background-color: transparent;
 }
@@ -181,13 +276,13 @@ footer{
     align-self: end;
 
     width: 70%;
-    height: 90px;
+    height: 80px;
     margin: 0;
     padding: 0;
 
     /*background-color: var(--body-color);*/
     background-color: transparent;
-    border: 10px solid var(--body-color);
+    border: 15px solid var(--body-color);
 }
 
 .cabin::after{
