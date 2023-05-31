@@ -1,0 +1,24 @@
+* {
+    outline: 1px red dashed;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.canvas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+
+    width: 1280px;
+    height: 720px;
+
+    /*background-color: blue;*/
+    border: 5px black solid;
+}
