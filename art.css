@@ -137,7 +137,7 @@ footer{
 .spacer4 {
     align-self: start;
     width: 10px;
-    height: 145px;
+    height: 146px;
     background-color: var(--body-color);
     border: 3px solid var(--body-color);
 
@@ -236,13 +236,37 @@ footer{
 }
 
 .nose {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
     width: 120px;
     height: 60%;
 
     background-color: var(--body-color);
 }
 
+.nose::after{
+    content: "";
+    display: block;
+    clear: both;
+
+    align-self: end;
+
+
+    width: 30px;
+    height: 10px;
+
+    background-color: orange;
+    border: 3px #414141 solid;
+}
+
 .triangle1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
     width: 0;
     height: 0;
     border-left: 120px solid transparent;
@@ -266,18 +290,37 @@ footer{
 }
 
 .boot{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
     width: 170px;
     height: 60%;
 
     background-color: var(--body-color);
 }
 
+.boot::after{
+    content: "";
+    display: block;
+    clear: both;
+
+    align-self: end;
+
+    width: 30px;
+    height: 10px;
+    margin: 0 1em 1em 0;
+
+    background-color: darkred;
+    border: 3px #414141 solid;
+}
+
 .triangle2 {
     width: 0;
     height: 0;
-    border-right: 165px solid transparent;
+    border-right: 169px solid transparent;
     border-top: 38px solid var(--body-color);
-    border-bottom: 39px solid transparent;
+    border-bottom: 38px solid transparent;
 
     background-color: transparent;
 }
