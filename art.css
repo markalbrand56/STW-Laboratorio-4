@@ -1,10 +1,11 @@
 * {
     /*outline: 1px red dashed;*/
-    color: white;
+    color: var(--main);
 }
 
 :root {
     --body-color: #616161;
+    --main: #9fcfff;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 footer{
-    width: 100%;
+    width: 1290px;
     height: 100px;
     background-color: black;
 }
@@ -31,7 +32,7 @@ footer{
     width: 1280px;
     height: 720px;
 
-    /*background-color: blue;*/
+    background-color: var(--main);
     border: 5px black solid;
 }
 
@@ -360,13 +361,14 @@ footer{
     align-self: end;
 
     width: 70%;
-    height: 80px;
+    height: 94px;
     margin: 0;
     padding: 0;
 
     /*background-color: var(--body-color);*/
     background-color: transparent;
-    border: 15px solid var(--body-color);
+    border-top: 15px solid var(--body-color);
+    border-bottom: 1px solid var(--body-color);
 }
 
 .cabin::after{
@@ -388,9 +390,9 @@ footer{
 .triangle3 {
     width: 0;
     height: 0;
-    border-right: 60px solid var(--body-color);
+    border-right: 85px solid var(--body-color);
     border-top: 60px solid transparent;
-    border-left: 50px solid transparent;
+    border-left: 75px solid transparent;
     border-bottom: 50px solid var(--body-color);
 }
 
